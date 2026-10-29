@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Blue Rounded Background -->
+    <path
+        android:fillColor="#2563EB"
+        android:pathData="M20,0 h60 a20,20 0 0 1 20,20 v60 a20,20 0 0 1 -20,20 h-60 a20,20 0 0 1 -20,-20 v-60 a20,20 0 0 1 20,-20 z" />
+
+    <!-- Bold 'I' in White -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,22 h20 v56 h-20 z" />
+
+</vector>

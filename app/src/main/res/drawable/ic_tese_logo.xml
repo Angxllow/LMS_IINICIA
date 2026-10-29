@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- White Background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M0,0h100v100h-100z" />
+
+    <!-- Outer Red Border -->
+    <path
+        android:strokeColor="#D32F2F"
+        android:strokeWidth="3"
+        android:pathData="M4,4h92v92h-92z" />
+
+    <!-- Inner Red Frame -->
+    <path
+        android:strokeColor="#D32F2F"
+        android:strokeWidth="2"
+        android:pathData="M18,18h64v64h-64z" />
+
+    <!-- Red Geometric Emblem / Spiral in Center -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M35,35 C42,28 58,28 65,35 C72,42 72,58 65,65 C58,72 42,72 35,65 C28,58 28,42 35,35 Z M50,22 L62,50 L50,62 L38,50 Z" />
+
+    <path
+        android:strokeColor="#D32F2F"
+        android:strokeWidth="3"
+        android:pathData="M50,22 L62,78 M38,78 L50,22 M22,50 C30,30 70,30 78,50 C70,70 30,70 22,50" />
+
+</vector>

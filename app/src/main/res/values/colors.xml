@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="iinicia_navy_dark">#0D1F3C</color>
+    <color name="iinicia_blue">#2563EB</color>
+    <color name="iinicia_teal">#2DD4BF</color>
+    <color name="iinicia_card_bg">#162C4E</color>
+</resources>
