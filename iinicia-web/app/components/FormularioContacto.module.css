@@ -1,0 +1,129 @@
+
+.contenedor {
+  width: min(1100px, 92%);
+  margin: 60px auto;
+  padding: 50px;
+  background: linear-gradient(135deg, #102b4b, #061326);
+  border: 1px solid #285376;
+  border-radius: 26px;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 55px;
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.2);
+}
+
+.encabezado {
+  padding-top: 25px;
+}
+
+.etiqueta {
+  color: #42d8eb;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.encabezado h2 {
+  font-size: clamp(32px, 4vw, 54px);
+  font-weight: 800;
+  margin: 25px 0;
+  line-height: 1.1;
+}
+
+.encabezado p {
+  color: #bad0e7;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.formulario {
+  background: #142f50;
+  padding: 35px;
+  border-radius: 20px;
+  border: 1px solid #305374;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.campo label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.campo input,
+.campo select,
+.campo textarea {
+  width: 100%;
+  padding: 15px;
+  background: #0a213d;
+  color: white;
+  border: 1px solid #345778;
+  border-radius: 10px;
+  font: inherit;
+  outline: none;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+  border-color: #42d8eb;
+  box-shadow: 0 0 0 3px rgba(66, 216, 235, 0.15);
+}
+
+.campo input::placeholder,
+.campo textarea::placeholder {
+  color: #9ab6ce;
+}
+
+.campo select option {
+  background: #0a213d;
+  color: white;
+}
+
+.boton {
+  padding: 17px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #16b8dc, #70ece0);
+  color: #061326;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.boton:hover {
+  filter: brightness(1.1);
+}
+
+.estado {
+  padding: 14px;
+  border-radius: 10px;
+  background: #123c48;
+  color: #9cf4e6;
+}
+
+.aviso {
+  font-size: 12px;
+  color: #a6bfd6;
+  line-height: 1.6;
+}
+
+@media (max-width: 800px) {
+  .contenedor {
+    grid-template-columns: 1fr;
+    padding: 25px;
+    gap: 25px;
+  }
+
+  .formulario {
+    padding: 22px;
+  }
+}
